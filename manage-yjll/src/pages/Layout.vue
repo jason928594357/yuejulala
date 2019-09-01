@@ -109,7 +109,7 @@
         dark: false,// 是否暗黑主题
         drawer: true,// 左侧导航是否隐藏
         miniVariant: false,// 左侧导航是否收起
-        title: '石方商城后台管理',// 顶部导航条名称,
+        title: '悦桔拉拉商城后台管理',// 顶部导航条名称,
         menuMap: {}
       }
     },
