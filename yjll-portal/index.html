@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
-        <title>悦桔拉拉商城首页</title>
-        <script type="text/javascript" src="common/js/yjllResource.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">$(".footer").load("foot.html");</script>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+    <title>悦桔拉拉商城首页</title>
+    <link rel="stylesheet" type="text/css" href="common/css/webbase.css" />
+    <script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="plugins/vue/vue.min.js"></script>
+    <script type="text/javascript" src="plugins/axios.min.js"></script>      
+    <script type="text/javascript" src="common/js/common.js"></script>    
+</head>
+<body>
+    <div id="indexApp">
         <!--头部-->
-        <div class="top">
-            <shortcut/>
+        <div id="nav-bottom">
+            <yjll-top/>
         </div>
         <!--正文-->
-        <div>123</div>
+        <div class="">
+
+        </div>
         <!--底部-->
         <div class="clearfix footer"></div>
-    </body>   
+    </div>
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">$(".footer").load("common/foot.html");</script>
 </html>
