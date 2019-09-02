@@ -150,7 +150,7 @@ public final class CookieUtils {
                 domainName = ary[0];
             }
             //return domainName;
-            return "shifang.com";
+            return "yuejulala.com";
         }
     }
 }

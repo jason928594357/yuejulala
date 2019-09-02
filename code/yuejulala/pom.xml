@@ -11,6 +11,7 @@
         <module>yjll-common</module>
         <module>yjll-registry</module>
         <module>yjll-gateway</module>
+        <module>yjll-item</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
@@ -25,7 +26,7 @@
         <mapper.starter.version>2.0.3</mapper.starter.version>
         <mysql.version>5.1.32</mysql.version>
         <pageHelper.starter.version>1.2.5</pageHelper.starter.version>
-        <shifang.latest.version>1.0.0-SNAPSHOT</shifang.latest.version>
+        <yuejulala.latest.version>1.0.0-SNAPSHOT</yuejulala.latest.version>
         <fastDFS.client.version>1.26.1-RELEASE</fastDFS.client.version>
     </properties>
 
