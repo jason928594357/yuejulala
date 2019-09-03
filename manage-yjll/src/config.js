@@ -1,4 +1,4 @@
-const baseUrl = 'http://api.shifang.com'
+const baseUrl = 'http://api.yuejulala.com'
 const config={
     locale:'zh-CN',
     url:baseUrl,
