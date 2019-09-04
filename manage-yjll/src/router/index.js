@@ -9,13 +9,13 @@ function route(path,file,name,children){
     path,
     name,
     children,
-    component:()=>import('../pages'+file)
+    component: () => import('../pages'+ file)
   }
 }
 
 export default new Router({
   routes:[
-    route("/login",'Login',"Login"),
+    route("/login",'/Login',"Login"),
     {
       path:"/",
       component:()=> import('../pages/Layout'),

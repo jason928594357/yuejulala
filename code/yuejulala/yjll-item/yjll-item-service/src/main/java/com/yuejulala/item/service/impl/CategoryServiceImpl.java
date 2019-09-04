@@ -21,9 +21,18 @@ public class CategoryServiceImpl implements CategoryService {
         Category category = new Category();
         category.setParentId(pid);
         List<Category> list = categoryMapper.select(category);
-        if(CollectionUtils.isEmpty(list)){
-            throw new YjllException(ExceptionEnum.CATEGORY_NOT_FOUND);
-        }
         return list;
+    }
+
+    @Override
+    public void addCategory(Category category) {
+        int count = categoryMapper.updateByPrimaryKeySelective(category);
+        if (count == 1) {
+            return;
+        }
+        count = categoryMapper.insert(category);
+        if (count == 0) {
+            throw new YjllException(ExceptionEnum.CATEGORY_SAVE_ERROR);
+        }
     }
 }
